@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;700&family=Work+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-image: url('bg_image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+
+.b_logo {
+    display: flex;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.b_logo span {
+    margin-left: 0.2083vw;
+}
+
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 24px;
+    color: white;
+    list-style-type: none;
+}
+
+.nav ul li {
+    margin-right: 3.5417vw;
+}
+
+.nav ul li:hover {
+    background: linear-gradient(90deg, #2AF598 0%, #009EFD 100%);
+    cursor: pointer;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.shopping {
+    position: relative;
+}
+
+.ellipse {
+    position: absolute;
+    top: 5px;
+    left: 18px;
+}
+
+.ellipse span {
+    position: absolute;
+    right: 7.5px;
+    top: 2px;
+    bottom: 3px;
+    font-size: 14px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 24px;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 82px;
+}
+
+
+.title span {
+    font-size: 82px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 24px;
+}
+
+.search_panel input {
+    width: 23.15vw;
+    height: 71px;
+    border-radius: 50px;
+    background: transparent;
+    border: 1px solid #fff;
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+    color: #fff;
+}
+
+.search_panel input::placeholder {
+    color: white;
+    padding-left: 24px;
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.search_panel input:focus::placeholder {
+    color: transparent;
+
+}
+
+.search_panel input[type=text] {
+    padding-left: 10px;
+}
+
+.btn button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background: linear-gradient(90deg, #2AF598 0%, #009EFD 100%);
+}
+
+.search_panel {
+    display: flex;
+    justify-content: center;
+}
+.btn_and_img {
+    width: 400px;
+    position: relative;
+    display: flex;
+    justify-content: end;
+}
+
+.btn {
+    position: absolute;
+    top: 10px;
+    right: 12px;
+}
+
+.icon_search {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}

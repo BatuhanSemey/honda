@@ -55,3 +55,17 @@ button {
     font-family: 'Playfair Display', serif;
     background: linear-gradient(to bottom left, #ff0000 0%, #6699ff 100%);
 }
+
+.block_reg {
+    margin-top: 3vw;
+    text-align: right;
+    font-size: 0.8em;
+}
+
+.block_reg a {
+    color: black;
+}
+
+.block_reg a:hover {
+    color: red;
+}
