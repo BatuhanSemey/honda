@@ -16,6 +16,7 @@ html {
     padding: 3vh 3vw;
     background: white;
     text-align: center;
+    border-radius: 10px;
 }
 .block_fname,
 .block_name,
