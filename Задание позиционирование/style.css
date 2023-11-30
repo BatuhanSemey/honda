@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    height: 150px;
+    width: 140px;
+}
+
+.main {
+    padding: 10px;
+    background-color: green;
+}
+
+.main_coloda {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.colods {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.coloda {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.img2 {
+    position: relative;
+    bottom: 120px;
+}
+
+.img3 {
+    position: relative;
+    bottom: 240px;
+}
+
+.img4 {
+    position: relative;
+    bottom: 360px;
+}
+
+.img5 {
+    position: relative;
+    bottom: 480px;
+}
+
+.img6 {
+    position: relative;
+    bottom: 600px;
+}
+
+.img7 {
+    position: relative;
+    bottom: 720px;
+}
+
+.img8 {
+    position: relative;
+    bottom: 840px;
+}

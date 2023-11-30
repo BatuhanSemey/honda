@@ -1,0 +1,58 @@
+@keyframes animationBox2 {
+    0% {
+        left: 0;
+    }
+
+    50% {
+        left: 500px;
+    }
+
+    100% {
+        left: 0;
+    }
+
+}
+
+.box2 {
+    position: relative;
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(47, 47, 194);
+    animation-name: animationBox2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: running;
+}
+
+.box2:hover {
+    animation-play-state: paused;
+}
+
+button {
+    background-color: red;
+    color: white;
+    transition: 1s;
+}
+
+button:hover {
+    background-color: yellow;
+    color: black;
+    box-shadow: 0px 0px 8px 4px yellow;
+    border-radius: 5px;
+}
+
+.box1 {
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+    transition: 3s;
+}
+
+.box1:hover {
+    width: 500px;
+    height: 50px;
+    background-color: green;
+}

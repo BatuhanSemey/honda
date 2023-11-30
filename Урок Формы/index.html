@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Формы взаимодействия</h1>
+    <h2>Чет важен тег form</h2>
+    1) Переход без отправки:
+    <a href="2.html">
+        <button name="Click">go</button>
+    </a><br><br>
+    2) Переход с отправкой:
+    <form action="2.html" method="get">
+        <button name="Shaurma">go</button>
+    </form><br><br> 
+    <h2>Виды тегов input:</h2>
+    <br><br>
+    1)Текст: <input type="text">
+    <br><br>
+    2)Номер: <input type="number">
+    <br><br>
+    3)Пароль: <input type="password">
+    <br><br>
+    4)Файл: <input type="file">
+    <br><br>
+    5)Картинка: <input type="image" src="" width="50px" height="50px">
+    <br><br>
+    6) Кнопка: <input type="button" value="click">
+    <br><br>
+    7) Очистка:
+    <form action="2.html" method="get">
+        <input type="text">
+        <input type="reset" value="reset">
+    </form>
+    <br><br>
+    8) Отправка:
+    <form action="2.html" method="get">
+        <input type="text" name="text">
+        <input type="submit" name="text" value="submit">
+    </form><br><br>
+    9) Чек-боксы:
+    <br><input type="checkbox" id="ban"><label for="ban">Банан</label><br>
+    <input type="checkbox" id="ora"><label for="ora">Апельсин</label><br>
+    <input type="checkbox" id="lem"><label for="lem">Лимон</label>
+
+</body>
+</html>

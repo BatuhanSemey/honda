@@ -1,0 +1,57 @@
+@keyframes santaImg {
+    0% {
+        top: 0;
+        left: 0;
+    }
+
+    100% {
+        top: 400px;
+        left: 800px;
+        height: 150px;
+        width: 250px;
+    }
+
+}
+
+@keyframes childrenImg {
+    0% {
+        top: 100px;
+        left: 900px;
+    }
+
+    100% {
+        top: 400px;
+        left: 900px;
+        height: 100px;
+        width: 150px;
+    }
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img_santa {
+    position: relative;
+    height: 250px;
+    width: 400px;
+    animation-name: santaImg;
+    animation-duration: 4s;
+}
+
+.img_children {
+    position: relative;
+    height: 1px;
+    width: 1px;
+    animation-name: childrenImg;
+    animation-duration: 4s;
+}
+
