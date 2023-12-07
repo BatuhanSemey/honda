@@ -1,0 +1,84 @@
+#girl {
+    position: absolute;
+    right: 20vw;
+    bottom: 10vw;
+    z-index: 2;
+}
+
+#ellipse4 {
+    position: absolute;
+    right: 18vw;
+    top: 22vh;
+    z-index: 1;
+}
+
+#ellipse13 {
+    position: absolute;
+    right: 24vw;
+    top: 30vh;
+}
+
+#ellipse21 {
+    position: absolute;
+    right: 24vw;
+    top: 21vh;
+    z-index: 2;
+}
+
+#ellipse22 {
+    position: absolute;
+    right: 18vw;
+    top: 21vh;
+    z-index: 2;
+}
+
+#ellipse7 {
+    position: absolute;
+    right: 22vw;
+    top: 35vh;
+    z-index: 2;
+}
+
+#ellipse18 {
+    position: absolute;
+    right: 18vw;
+    top: 39vh;
+    z-index: 2;
+}
+
+#ellipse1 {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    right: 24vw;
+    top: 21vh;
+    z-index: 1;
+}
+
+#ellipse6 {
+    position: absolute;
+    right: 35vw;
+    top: 27vh;
+    z-index: 2;
+}
+
+#ellipse19 {
+    position: absolute;
+    right: 39vw;
+    top: 25vh;
+    z-index: 2;
+}
+
+#ellipse17 {
+    position: absolute;
+    right: 39vw;
+    top: 37vh;
+    z-index: 2;
+}
+
+#ellipse8 {
+    position: absolute;
+    right: 39vw;
+    top: 46vh;
+    z-index: 2;
+}
